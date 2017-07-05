@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.taihold.shuangdeng.ui.home.HomePageActivity">
+
+
+    <!--这个framelayout才是真正使用indicator填充的view，在这里对height使用weight-->
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!--注意，这里的id是使用android自带的id-"@android:id/tabhost"-->
+    <android.support.v4.app.FragmentTabHost
+        android:id="@+id/home_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--
+        想改变TabWidget位置,在LinearLayout中调节即可-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- 这里的FrameLayout和TabWidget的id是特定的,最好不要修改-->
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"></FrameLayout>
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"></TabWidget>
+        </LinearLayout>
+
+    </android.support.v4.app.FragmentTabHost>
+
+
+</LinearLayout>

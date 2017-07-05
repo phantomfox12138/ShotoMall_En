@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.taihold.shuangdeng.ui.mall.WebMallFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@mipmap/home_title_bg">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#444"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <!--<ImageView-->
+        <!--android:id="@+id/icon"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_toLeftOf="@id/title" -->
+        <!--android:src="@mipmap/icon_logo" />-->
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/title_icon_container"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="5dp">-->
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:src="@mipmap/home_title_icon" />
+
+        <!--</RelativeLayout>-->
+
+        <RelativeLayout
+            android:id="@+id/search_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/icon"
+            android:gravity="right">
+
+            <EditText
+                android:id="@+id/search_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@mipmap/title_search_bg"
+                android:hint="@string/home_title_search_hint"
+                android:textColor="#444444"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="10sp" />
+
+
+            <ImageView
+                android:id="@+id/search_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@id/search_edit"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@mipmap/title_search_btn" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:id="@+id/mall_web_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/waiting_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:text="@string/please_wait"
+            android:textAppearance="@style/TextAppearance.DemoText"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/load_failed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/load_failed"
+            android:visibility="gone" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/niufan/AndroidStudioProjects/ShuangDeng/swipebacklibrary/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-w720dp-v13/values-w720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "/Users/niufan/.android/build-cache/3ed9156f785c9b6014e8251f619073749aa964bd/output/res/values-w720dp/values-w720dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 293,
+                        "endColumn": 76,
+                        "endOffset": 365
+                    }
+                }
+            }
+        ]
+    }
+]

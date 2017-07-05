@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.taihold.shuangdeng.ui.corp.GlobalNetFragment">
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginRight="30dp"-->
+        <!--android:paddingBottom="10dp"-->
+        <!--android:paddingLeft="30dp"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:text="@string/corp_tab_global_net" />-->
+
+
+    <ListView
+        android:id="@+id/global_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>

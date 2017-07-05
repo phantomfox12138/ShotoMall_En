@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.taihold.shuangdeng.ui.corp.DevelopPathFragment">
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingBottom="10dp"-->
+        <!--android:paddingLeft="30dp"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:text="@string/corp_tab_develop_path" />-->
+
+    <ListView
+        android:id="@+id/develop_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+</LinearLayout>

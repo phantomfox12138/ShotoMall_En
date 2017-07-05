@@ -1,0 +1,29 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.taihold.shuangdeng.sliderlibrary.SliderLayout
+            android:id="@+id/introduce_slider"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            custom:auto_cycle="true"
+            custom:indicator_visibility="visible"
+            custom:pager_animation="Accordion"
+            custom:pager_animation_span="1100" />
+
+        <TextView
+            android:id="@+id/corp_introduce_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#777"
+            android:padding="20dp" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,149 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    tools:context="com.taihold.shuangdeng.ui.corp.SocialRespFragment">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingBottom="10dp"-->
+        <!--android:paddingLeft="30dp"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:text="@string/corp_tab_social_responsibility" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:paddingBottom="10dp"-->
+        <!--android:paddingTop="30dp"-->
+        <!--android:text="@string/social_resp_title"-->
+        <!--android:textColor="#444"-->
+        <!--android:textSize="20sp" />-->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/darker_gray" />
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingBottom="10dp"-->
+        <!--android:paddingLeft="30dp"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:text="@string/social_resp_subtitle"-->
+        <!--android:textColor="#42cea7" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#42cea7" />
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:textColor="#777"-->
+            <!--android:lineSpacingExtra="5dp"-->
+            <!--android:text="@string/social_resp_content_first" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#42cea7" />
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:lineSpacingExtra="5dp"-->
+            <!--android:textColor="#777"-->
+            <!--android:text="@string/social_resp_content_second" />-->
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#42cea7" />
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:lineSpacingExtra="5dp"-->
+            <!--android:textColor="#777"-->
+            <!--android:text="@string/social_resp_content_third" />-->
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#42cea7" />
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:lineSpacingExtra="5dp"-->
+            <!--android:textColor="#777"-->
+            <!--android:text="@string/social_resp_content_fourth" />-->
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

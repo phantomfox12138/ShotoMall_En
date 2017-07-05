@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/regist_user"
+        android:title="@string/regist_personal_user"></item>
+    <item
+        android:id="@+id/regist_company"
+        android:title="@string/regist_company_user"></item>
+
+</menu>

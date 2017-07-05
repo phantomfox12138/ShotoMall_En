@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">ShotoMall</string>
+
+    <string name="please_wait">Loading</string>
+    <string name="complete">Successful!</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="next_step">Next step</string>
+    <string name="warning">Tips</string>
+    <string name="loading_data">Loading</string>
+    <string name="payout_success">Successfully paid!</string>
+    <string name="payout_failed">Failure paid!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <!--pagecount-->
+    <!--<string name="page">张</string>-->
+    <!--<string name="read_count">人阅读</string>-->
+
+    <string name="home_title_product_list">Product list</string>
+    <string name="home_title_search_hint">&#160;&#160;Please fill in Keyword</string>
+    <string name="home_title_search">Search results</string>
+
+    <string name="home_tab_home">Global Select</string>
+    <string name="home_tab_corp">Category</string>
+    <string name="home_tab_mall">Cart</string>
+    <string name="home_tab_me">My products</string>
+
+    <string name="profile_order_detail">Order Detail</string>
+
+
+    <string name="login_title">Sign in</string>
+    <string name="login_find_password_back">Forget password?</string>
+    <string name="login_fast_regist">Register</string>
+    <string name="login_phone_num">ID</string>
+    <string name="login_username_is_null">Phone number is needed</string>
+    <string name="login_phone_num_is_unavailable">Phone number format error</string>
+    <string name="login_password_is_null">The password cannot be empty</string>
+
+    <string name="regist_title">Register now</string>
+    <string name="regist_select_type">Select Account Type</string>
+    <string name="regist_personal_user">Individual Account</string>
+    <string name="regist_company_user">Enterprise Account</string>
+    <string name="regist_phone_num">ID</string>
+    <string name="regist_confirm_code">Type in verification code</string>
+    <string name="regist_confirm_phone_num">Validation E-mail</string>
+    <string name="regist_email">Email</string>
+    <string name="regist_corp_email">Company E-mail</string>
+    <string name="regist_nick_name">User name</string>
+    <string name="regist_company_name">Company name</string>
+    <string name="regist_password">Password</string>
+    <string name="regist_password_confirm">Confirm Password</string>
+    <string name="regist_send_sms_code">Send the Verification Code</string>
+    <string name="regist_image_confirm_code">Type in Verification Code</string>
+    <string name="regist_image_confirm_code_error">Verification Code Mistake</string>
+    <string name="regist_pwd_is_different">The two passwords you typed in is not match</string>
+    <string name="regist_email_is_illegal">E-mail format error</string>
+    <string name="regist_get_img_verify_code_failed">Failure to get the verification code</string>
+    <string name="regist_sms_count_down">S Try again after</string>
+    <string name="regist_confirm_to_abandon">Are you sure to surrender registration?</string>
+    <string name="regist_sms_code_has_sended">SMS has been sent</string>
+    <string name="regist_email_has_sended">E-mail has been sent</string>
+    <string name="regist_user_has_registed">This user name already exist!</string>
+    <string name="regist_corp_license">Business license photo</string>
+    <string name="regist_sms_validate_code_error">verification code mistake</string>
+    <string name="regist_sms_send_failed">verification code sending error</string>
+
+    <string name="imageloader_loading">Loading...</string>
+    <string name="imageloader_extrnal_storage_not_exist">External storage is not available</string>
+    <string name="imageloader_alert_user_allow_access_extrnal_storage">Authority is needed to get local picture</string>
+    <string name="imageloader_image_not_found">Picture file is not existing</string>
+
+    <string name="regist_now">Register now</string>
+
+    <string name="regist_user_successed">Success on individual user register</string>
+    <string name="regist_user_failed">Failure on individual user register</string>
+
+    <string name="regist_company_successed">Success on enterprise user register</string>
+    <string name="regist_company_failed">Failure on enterprise user register</string>
+    <string name="regist_company_image_upload_success">Success on uploading pictures</string>
+    <string name="regist_company_image_upload_failed">Failure on uploading pictures</string>
+
+    <string name="login_successed">Login successfully</string>
+    <string name="login_failed">Login failure</string>
+    <string name="login_forget_pwd_title">Forget password?</string>
+    <string name="login_forget_pwd">Type in new password</string>
+    <string name="login_sure_to_abondent_get_pwd_back">Do you give up to get back password?</string>
+    <string name="login_forget_pwd_reset_successed">Reset successfully</string>
+    <string name="login_forget_pwd_reset_failed">Reset failure</string>
+    <string name="login_logout_msg">Confirm on Logout?</string>
+
+    <string name="key_tracking_mode">key_tracking_mode</string>
+
+
+</resources>

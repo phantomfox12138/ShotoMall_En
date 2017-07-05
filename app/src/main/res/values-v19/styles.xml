@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">#43cea7</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ActionBarTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- toolbar（actionbar）颜色 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">#42cea7</item>
+    </style>
+
+    <style name="RegistActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorAccent">#42cea7</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- toolbar（actionbar）颜色 -->
+        <item name="colorPrimary">#42cea7</item>
+        <!-- 窗口的背景颜色 -->
+        <item name="colorPrimaryDark">#42cea7</item>
+
+    </style>
+
+    <style name="FullScreen" parent="ActionBarTheme">
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="DialogTheme" parent="ActionBarTheme">
+
+        <item name="android:dialogTheme">@style/Animation.AppCompat.Dialog</item>
+    </style>
+
+
+</resources>
